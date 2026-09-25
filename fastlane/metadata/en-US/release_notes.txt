@@ -1,0 +1,9 @@
+Version 1.0 is the initial release of Isopleth.
+
+• Year plate for marking each day with one of twelve named tones
+• Four-page cover: The year plate, Set the tone, Ridges join, Quiet days
+• Set the tone with factory spoken names Still, Drift, Lift, Crest, Fold, Spur, Scarp, Bench, Sill, Notch, Rim, Peak
+• Quiet days streak
+• Tone runs for SAME-TONE RUNS and SINGLE DAYS
+• Day-by-day log with ON THIS LOG legend
+• Settings for spoken names, Shift ink, Restore factory tones, Replay the cover, Reset all data, and Contact

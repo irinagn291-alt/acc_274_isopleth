@@ -1,0 +1,15 @@
+Isopleth is a year plate for marking each day with one of twelve named tones. It treats the year as terrain rather than a journal, for anyone who wants a quiet daily mark, a quiet-days streak, and runs of the same tone over time.
+
+• Year plate for the current year
+• Mark today and Set the tone
+• Twelve named tones; colour is never the only signal
+• Quiet days streak
+• Tone runs (same-tone runs and single days)
+• Day-by-day log with ON THIS LOG legend
+• Rename spoken names and Shift ink in Settings
+• Restore factory tones
+• Replay the cover
+• Reset all data
+• Contact
+
+Portrait only on iPhone and iPad. Dark interface. Marks and tone names are kept on this device.

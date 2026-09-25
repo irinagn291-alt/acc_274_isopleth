@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F7F539572C62FE173F4EEB /* PlateLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E62A4DBA7034B6B3F6C766 /* PlateLattice.swift */; };
+		0D853990DB02B3358E7AE3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075012B51573C2A055665B07 /* AppDelegate.swift */; };
+		0D97567323B127AAE9D901E8 /* PlateTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B09D57F99F18D80192EEF5 /* PlateTokens.swift */; };
+		111AE00649ED924EF2DD829A /* ToneStretch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21591DEFFEEA0F4A67D3F92B /* ToneStretch.swift */; };
+		13BDA998C07224FFE581065D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9E4B591C26C3ECFD23DFC /* NotificationService.swift */; };
+		146F1784C7DEF198A636955F /* PlateSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AEFC3272A0BEC450EF979 /* PlateSettings.swift */; };
+		16F093C2917370F96A6AD9AA /* Ridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD92E20F4C64C29587051B /* Ridge.swift */; };
+		1747993C4309A5CF81D83C0F /* IsoplethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E1981BEF468D861C35A2B /* IsoplethTests.swift */; };
+		1FFF6C164E75B9F690C71D66 /* PlateGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0517A9AB6582BDBB8873DC19 /* PlateGrid.swift */; };
+		209E31648957E7948652AB9B /* YearPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E1719ACA4C6824B263D6A /* YearPlate.swift */; };
+		2B98C451FFEB21CAAA54CFDB /* YearPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B621D49BAEF64E482B6B8 /* YearPlateTests.swift */; };
+		2E9CAF501433ABE067049B1B /* RidgeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FB8DE0B495FD10EEE23E5 /* RidgeSheet.swift */; };
+		31A01AC8B4FD017F2C6FF42E /* QuietMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A11C2AB6718D7812E34CDD /* QuietMark.swift */; };
+		39C09E6E8943DD1B0BEE335A /* PlateCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BAF21D18E48BC133E9AC2F /* PlateCommit.swift */; };
+		4D9CFCCEB0975B4129E54D14 /* PlateDayBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97FB468094603F28FD3496C /* PlateDayBoard.swift */; };
+		57B676F06654452661729C54 /* ContourUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF344046879FDE28A198B912 /* ContourUnion.swift */; };
+		5A8863345DDD55D30462C9E9 /* SpotMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D9FA51A98D96EE29EC33C /* SpotMark.swift */; };
+		63084D658CD583BF13CC2421 /* PlateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA551EBAD781B0188E73E44 /* PlateClient.swift */; };
+		6C94D989B3C5B1FE15924185 /* ToneWellOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E1B749F4B4FE4362D7B5C4 /* ToneWellOverlay.swift */; };
+		6E30F1CD1324A086FB44245E /* PlateDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600261927774A5FE37050E9 /* PlateDocument.swift */; };
+		793F3010FC6DD8F130E457E4 /* PlateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A97345D1BF3FA2A031A5646 /* PlateStore.swift */; };
+		7DF6DEC276296347E3C54504 /* PlateLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED2CD7936FFB4285D3461B /* PlateLive.swift */; };
+		8B44933231BEBD93DBE6623A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5B5A91CDE92F863B3535047E /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B94CEFC8BA7B51F8CF95F33 /* PlateFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B1191C1371D2F18F48CDF /* PlateFigures.swift */; };
+		8DAB01E27D894F101FEBBBA0 /* CoverLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC7EB0488E7F1DB60744BA /* CoverLaunch.swift */; };
+		9926573A498CC44121EF2A79 /* PlateCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991E541653EB32743F788FAA /* PlateCanvas.swift */; };
+		99D12E1AC017991707E21160 /* LoopMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8FEAFEEDFB28E6EB420D4F /* LoopMark.swift */; };
+		9D3B91D9419684C928C25519 /* PlateMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49755BF318F434ECA2F2A45 /* PlateMotion.swift */; };
+		A6C83505C69ECAACB17EE346 /* PlateGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A83C024BEFF90E7CEA4DAA /* PlateGridTests.swift */; };
+		A70EE3AB6A74368D4EC1984A /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06189FDE6F99D1C0F00D766 /* Loop.swift */; };
+		ABD5B19CC8972308B2952B7B /* PlateOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B96D9738A70E5FAEED048D /* PlateOnboarding.swift */; };
+		ACF05FBA59BFC6279964E916 /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF628D19E52A37417F25527 /* Tone.swift */; };
+		AD5DF15F1FEF91EC98CEBBF9 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9938416D46EACDB5C86866C /* Spot.swift */; };
+		B41483E2B8ADEAD487E3C3BD /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 23A25E6A9833EA4379FC292E /* OneSignalFramework */; };
+		C27B59CA01BE42DCAD706726 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6C48CAFE6076A5CCA0DBA /* APIConfig.swift */; };
+		C700811DC4CACEE70C5AB864 /* PlateBloom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49AB576544C4CF61B73CBF /* PlateBloom.swift */; };
+		C70D4D66096ED1436CD3953E /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 6DF2D65AF4D974E2D895A339 /* OneSignalExtension */; };
+		C81AE088EDEC51F5337D0F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B9A41F3AE1CA19D3CE4F43 /* ContentView.swift */; };
+		C9DD77085713FB5FED94EFD8 /* ToneStretchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01215D4529422658496F2FEF /* ToneStretchTests.swift */; };
+		CAFDDA91D8F2A81ED5159148 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 074AA69C112F299C285A7203 /* Alamofire */; };
+		CCABED24B72B9808FF731840 /* IsoplethApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA312F75B8F41C34173E3D8D /* IsoplethApp.swift */; };
+		D1BA092DCDFD70845FC0A9CE /* PlateStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0EF491B383C58071ABA30 /* PlateStoreTests.swift */; };
+		D47A64DDDF84AA43BA2BE19C /* PlateVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6CFB57E9A90CE4D67A32F /* PlateVoid.swift */; };
+		D4FE22C0440C4766696537FD /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AE56123BD0414886C463E /* FamilyInvariantTests.swift */; };
+		E0DCFF3E8F63778087ECC75E /* CoverLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B578073F5B519519D0051F8 /* CoverLaunchTests.swift */; };
+		E7B2137BB5107D10863ED667 /* PlateCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8874702CCE456F6CA061C /* PlateCalendar.swift */; };
+		EF10C45F7F0341780300D692 /* PlateTestDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B95357F7FE89F0F12455B /* PlateTestDates.swift */; };
+		EFC466DE385699E565A2F492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F230625A61DB78A9650990 /* Assets.xcassets */; };
+		F279915CEB7E9541D68CEE73 /* PlateSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3EEFF5B272404781E4915 /* PlateSeed.swift */; };
+		F5B48C1FA5F6C484BF1E46A6 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AF59FA6B3B73011AB0781 /* MoodEntry.swift */; };
+		F8D0A64EC49948CE7EC5CC6F /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 043A1FC36B415CB98B31BABE /* OneSignalInAppMessages */; };
+		F8DC67E365E8B126650AF6F9 /* PlateClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA741A7C722C8D16BD9A12B0 /* PlateClientTests.swift */; };
+		FD0BFF4B95B9116B4048BE52 /* ContourUnionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0623596A83EFF11B6E969A3 /* ContourUnionTests.swift */; };
+		FD49CB9B8F53F559AF55E3FA /* RidgeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB913BF541762CA0D78A0E /* RidgeMark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BA8E818509DE30537D83507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0260D60078EB8E88C158AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0EE8584F6E91059A12129A;
+			remoteInfo = Isopleth;
+		};
+		D2401453C76D0159FDAC64F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0260D60078EB8E88C158AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6E330EA7AB6F5CC144A3D2;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C8C0172DF9CADF13B1776BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B44933231BEBD93DBE6623A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01215D4529422658496F2FEF /* ToneStretchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneStretchTests.swift; sourceTree = "<group>"; };
+		0517A9AB6582BDBB8873DC19 /* PlateGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateGrid.swift; sourceTree = "<group>"; };
+		075012B51573C2A055665B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA551EBAD781B0188E73E44 /* PlateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateClient.swift; sourceTree = "<group>"; };
+		0D1B621D49BAEF64E482B6B8 /* YearPlateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPlateTests.swift; sourceTree = "<group>"; };
+		13E62A4DBA7034B6B3F6C766 /* PlateLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateLattice.swift; sourceTree = "<group>"; };
+		14A83C024BEFF90E7CEA4DAA /* PlateGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateGridTests.swift; sourceTree = "<group>"; };
+		17BB913BF541762CA0D78A0E /* RidgeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeMark.swift; sourceTree = "<group>"; };
+		20DCAFAA493A4B7BF6F56103 /* Isopleth.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Isopleth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21591DEFFEEA0F4A67D3F92B /* ToneStretch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneStretch.swift; sourceTree = "<group>"; };
+		24F230625A61DB78A9650990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254B1191C1371D2F18F48CDF /* PlateFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateFigures.swift; sourceTree = "<group>"; };
+		2B0AF59FA6B3B73011AB0781 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		2BE9E4B591C26C3ECFD23DFC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		445E1981BEF468D861C35A2B /* IsoplethTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoplethTests.swift; sourceTree = "<group>"; };
+		53BD92E20F4C64C29587051B /* Ridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ridge.swift; sourceTree = "<group>"; };
+		55B96D9738A70E5FAEED048D /* PlateOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateOnboarding.swift; sourceTree = "<group>"; };
+		5B5A91CDE92F863B3535047E /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A49AB576544C4CF61B73CBF /* PlateBloom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateBloom.swift; sourceTree = "<group>"; };
+		6A8FEAFEEDFB28E6EB420D4F /* LoopMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMark.swift; sourceTree = "<group>"; };
+		6A97345D1BF3FA2A031A5646 /* PlateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateStore.swift; sourceTree = "<group>"; };
+		6CD332B0DB85D4ECDFB7F0E1 /* IsoplethTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IsoplethTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B9A41F3AE1CA19D3CE4F43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		786B95357F7FE89F0F12455B /* PlateTestDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateTestDates.swift; sourceTree = "<group>"; };
+		7C5FB8DE0B495FD10EEE23E5 /* RidgeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeSheet.swift; sourceTree = "<group>"; };
+		85BAF21D18E48BC133E9AC2F /* PlateCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateCommit.swift; sourceTree = "<group>"; };
+		8EC0EF491B383C58071ABA30 /* PlateStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateStoreTests.swift; sourceTree = "<group>"; };
+		93A11C2AB6718D7812E34CDD /* QuietMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietMark.swift; sourceTree = "<group>"; };
+		986D9FA51A98D96EE29EC33C /* SpotMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotMark.swift; sourceTree = "<group>"; };
+		991E541653EB32743F788FAA /* PlateCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateCanvas.swift; sourceTree = "<group>"; };
+		9B578073F5B519519D0051F8 /* CoverLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverLaunchTests.swift; sourceTree = "<group>"; };
+		9EE8874702CCE456F6CA061C /* PlateCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateCalendar.swift; sourceTree = "<group>"; };
+		ADBC7EB0488E7F1DB60744BA /* CoverLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverLaunch.swift; sourceTree = "<group>"; };
+		ADC6C48CAFE6076A5CCA0DBA /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		B49755BF318F434ECA2F2A45 /* PlateMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateMotion.swift; sourceTree = "<group>"; };
+		B97FB468094603F28FD3496C /* PlateDayBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateDayBoard.swift; sourceTree = "<group>"; };
+		B9938416D46EACDB5C86866C /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		BA741A7C722C8D16BD9A12B0 /* PlateClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateClientTests.swift; sourceTree = "<group>"; };
+		BD6AEFC3272A0BEC450EF979 /* PlateSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateSettings.swift; sourceTree = "<group>"; };
+		BDF628D19E52A37417F25527 /* Tone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
+		C06189FDE6F99D1C0F00D766 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		D3E1B749F4B4FE4362D7B5C4 /* ToneWellOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneWellOverlay.swift; sourceTree = "<group>"; };
+		D3ED2CD7936FFB4285D3461B /* PlateLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateLive.swift; sourceTree = "<group>"; };
+		D600261927774A5FE37050E9 /* PlateDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateDocument.swift; sourceTree = "<group>"; };
+		D8B09D57F99F18D80192EEF5 /* PlateTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateTokens.swift; sourceTree = "<group>"; };
+		DA312F75B8F41C34173E3D8D /* IsoplethApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoplethApp.swift; sourceTree = "<group>"; };
+		EAD6CFB57E9A90CE4D67A32F /* PlateVoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateVoid.swift; sourceTree = "<group>"; };
+		F0623596A83EFF11B6E969A3 /* ContourUnionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourUnionTests.swift; sourceTree = "<group>"; };
+		F20AE56123BD0414886C463E /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		F5E3EEFF5B272404781E4915 /* PlateSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateSeed.swift; sourceTree = "<group>"; };
+		FB8E1719ACA4C6824B263D6A /* YearPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPlate.swift; sourceTree = "<group>"; };
+		FF344046879FDE28A198B912 /* ContourUnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourUnion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F965665198F63CB297291DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFDDA91D8F2A81ED5159148 /* Alamofire in Frameworks */,
+				B41483E2B8ADEAD487E3C3BD /* OneSignalFramework in Frameworks */,
+				F8D0A64EC49948CE7EC5CC6F /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE954FA5A6996F4519FB350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70D4D66096ED1436CD3953E /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14321F625CB9545175B3E502 /* Isopleth */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6C48CAFE6076A5CCA0DBA /* APIConfig.swift */,
+				075012B51573C2A055665B07 /* AppDelegate.swift */,
+				24F230625A61DB78A9650990 /* Assets.xcassets */,
+				71B9A41F3AE1CA19D3CE4F43 /* ContentView.swift */,
+				DA312F75B8F41C34173E3D8D /* IsoplethApp.swift */,
+				6D7D932F009991EE0C2FEA93 /* Loop */,
+				D1981EBA6EA30BF13F9B8A99 /* Ridge */,
+				F4DCAFAF4598BA31843BD319 /* Spot */,
+				52156F96E3995ECA9EB591A9 /* Well */,
+				D4A3B2B036BDB0D8B0E6FD71 /* YearPlate */,
+			);
+			path = Isopleth;
+			sourceTree = "<group>";
+		};
+		2FFBD61153F390ED3EDEAD90 /* IsoplethTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0623596A83EFF11B6E969A3 /* ContourUnionTests.swift */,
+				9B578073F5B519519D0051F8 /* CoverLaunchTests.swift */,
+				F20AE56123BD0414886C463E /* FamilyInvariantTests.swift */,
+				445E1981BEF468D861C35A2B /* IsoplethTests.swift */,
+				BA741A7C722C8D16BD9A12B0 /* PlateClientTests.swift */,
+				14A83C024BEFF90E7CEA4DAA /* PlateGridTests.swift */,
+				8EC0EF491B383C58071ABA30 /* PlateStoreTests.swift */,
+				786B95357F7FE89F0F12455B /* PlateTestDates.swift */,
+				01215D4529422658496F2FEF /* ToneStretchTests.swift */,
+				0D1B621D49BAEF64E482B6B8 /* YearPlateTests.swift */,
+			);
+			path = IsoplethTests;
+			sourceTree = "<group>";
+		};
+		52156F96E3995ECA9EB591A9 /* Well */ = {
+			isa = PBXGroup;
+			children = (
+				BDF628D19E52A37417F25527 /* Tone.swift */,
+				D3E1B749F4B4FE4362D7B5C4 /* ToneWellOverlay.swift */,
+			);
+			path = Well;
+			sourceTree = "<group>";
+		};
+		6D7D932F009991EE0C2FEA93 /* Loop */ = {
+			isa = PBXGroup;
+			children = (
+				C06189FDE6F99D1C0F00D766 /* Loop.swift */,
+				6A8FEAFEEDFB28E6EB420D4F /* LoopMark.swift */,
+			);
+			path = Loop;
+			sourceTree = "<group>";
+		};
+		B9A577B803A0A8BC5A701012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20DCAFAA493A4B7BF6F56103 /* Isopleth.app */,
+				6CD332B0DB85D4ECDFB7F0E1 /* IsoplethTests.xctest */,
+				5B5A91CDE92F863B3535047E /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1981EBA6EA30BF13F9B8A99 /* Ridge */ = {
+			isa = PBXGroup;
+			children = (
+				FF344046879FDE28A198B912 /* ContourUnion.swift */,
+				13E62A4DBA7034B6B3F6C766 /* PlateLattice.swift */,
+				53BD92E20F4C64C29587051B /* Ridge.swift */,
+				17BB913BF541762CA0D78A0E /* RidgeMark.swift */,
+				7C5FB8DE0B495FD10EEE23E5 /* RidgeSheet.swift */,
+				21591DEFFEEA0F4A67D3F92B /* ToneStretch.swift */,
+			);
+			path = Ridge;
+			sourceTree = "<group>";
+		};
+		D4A3B2B036BDB0D8B0E6FD71 /* YearPlate */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC7EB0488E7F1DB60744BA /* CoverLaunch.swift */,
+				2B0AF59FA6B3B73011AB0781 /* MoodEntry.swift */,
+				6A49AB576544C4CF61B73CBF /* PlateBloom.swift */,
+				9EE8874702CCE456F6CA061C /* PlateCalendar.swift */,
+				991E541653EB32743F788FAA /* PlateCanvas.swift */,
+				0CA551EBAD781B0188E73E44 /* PlateClient.swift */,
+				85BAF21D18E48BC133E9AC2F /* PlateCommit.swift */,
+				B97FB468094603F28FD3496C /* PlateDayBoard.swift */,
+				D600261927774A5FE37050E9 /* PlateDocument.swift */,
+				254B1191C1371D2F18F48CDF /* PlateFigures.swift */,
+				0517A9AB6582BDBB8873DC19 /* PlateGrid.swift */,
+				D3ED2CD7936FFB4285D3461B /* PlateLive.swift */,
+				B49755BF318F434ECA2F2A45 /* PlateMotion.swift */,
+				55B96D9738A70E5FAEED048D /* PlateOnboarding.swift */,
+				F5E3EEFF5B272404781E4915 /* PlateSeed.swift */,
+				BD6AEFC3272A0BEC450EF979 /* PlateSettings.swift */,
+				6A97345D1BF3FA2A031A5646 /* PlateStore.swift */,
+				D8B09D57F99F18D80192EEF5 /* PlateTokens.swift */,
+				EAD6CFB57E9A90CE4D67A32F /* PlateVoid.swift */,
+				93A11C2AB6718D7812E34CDD /* QuietMark.swift */,
+				FB8E1719ACA4C6824B263D6A /* YearPlate.swift */,
+			);
+			path = YearPlate;
+			sourceTree = "<group>";
+		};
+		D79F507D6A20733E06A49851 = {
+			isa = PBXGroup;
+			children = (
+				14321F625CB9545175B3E502 /* Isopleth */,
+				2FFBD61153F390ED3EDEAD90 /* IsoplethTests */,
+				FE5B9CCF3C866C58F359AC71 /* OneSignalNotificationServiceExtension */,
+				B9A577B803A0A8BC5A701012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DCAFAF4598BA31843BD319 /* Spot */ = {
+			isa = PBXGroup;
+			children = (
+				B9938416D46EACDB5C86866C /* Spot.swift */,
+				986D9FA51A98D96EE29EC33C /* SpotMark.swift */,
+			);
+			path = Spot;
+			sourceTree = "<group>";
+		};
+		FE5B9CCF3C866C58F359AC71 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2BE9E4B591C26C3ECFD23DFC /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6E330EA7AB6F5CC144A3D2 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00104C64B9C9A76681F789A8 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				43E66679FC37B747EFAF8CF2 /* Sources */,
+				CFE954FA5A6996F4519FB350 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				6DF2D65AF4D974E2D895A339 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 5B5A91CDE92F863B3535047E /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AD3F1FEE81494FBA1FF1B5E8 /* IsoplethTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F1156CF5920A1CEB7C3D97 /* Build configuration list for PBXNativeTarget "IsoplethTests" */;
+			buildPhases = (
+				31EAC7593231B2EED1AE3698 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBC729482A1E5A6CF47A58E /* PBXTargetDependency */,
+			);
+			name = IsoplethTests;
+			packageProductDependencies = (
+			);
+			productName = IsoplethTests;
+			productReference = 6CD332B0DB85D4ECDFB7F0E1 /* IsoplethTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0EE8584F6E91059A12129A /* Isopleth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE8AF9AEC7400C530281A56 /* Build configuration list for PBXNativeTarget "Isopleth" */;
+			buildPhases = (
+				E4C6BCCECEB1DDDD1BA326CD /* Sources */,
+				53D46F4D7EE1D1E7957DDD59 /* Resources */,
+				8F965665198F63CB297291DA /* Frameworks */,
+				0C8C0172DF9CADF13B1776BC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91BB3E6E31B04BA29731E90F /* PBXTargetDependency */,
+			);
+			name = Isopleth;
+			packageProductDependencies = (
+				074AA69C112F299C285A7203 /* Alamofire */,
+				23A25E6A9833EA4379FC292E /* OneSignalFramework */,
+				043A1FC36B415CB98B31BABE /* OneSignalInAppMessages */,
+			);
+			productName = Isopleth;
+			productReference = 20DCAFAA493A4B7BF6F56103 /* Isopleth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0260D60078EB8E88C158AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D6E330EA7AB6F5CC144A3D2 = {
+						ProvisioningStyle = Automatic;
+					};
+					AD3F1FEE81494FBA1FF1B5E8 = {
+						ProvisioningStyle = Automatic;
+					};
+					ED0EE8584F6E91059A12129A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E995C977E6E8C460BF2B6119 /* Build configuration list for PBXProject "Isopleth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D79F507D6A20733E06A49851;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				70758B0C574063CD2FFA3E2A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				99688E6D56951749D16C7514 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9A577B803A0A8BC5A701012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0EE8584F6E91059A12129A /* Isopleth */,
+				AD3F1FEE81494FBA1FF1B5E8 /* IsoplethTests */,
+				8D6E330EA7AB6F5CC144A3D2 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D46F4D7EE1D1E7957DDD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC466DE385699E565A2F492 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31EAC7593231B2EED1AE3698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0BFF4B95B9116B4048BE52 /* ContourUnionTests.swift in Sources */,
+				E0DCFF3E8F63778087ECC75E /* CoverLaunchTests.swift in Sources */,
+				D4FE22C0440C4766696537FD /* FamilyInvariantTests.swift in Sources */,
+				1747993C4309A5CF81D83C0F /* IsoplethTests.swift in Sources */,
+				F8DC67E365E8B126650AF6F9 /* PlateClientTests.swift in Sources */,
+				A6C83505C69ECAACB17EE346 /* PlateGridTests.swift in Sources */,
+				D1BA092DCDFD70845FC0A9CE /* PlateStoreTests.swift in Sources */,
+				EF10C45F7F0341780300D692 /* PlateTestDates.swift in Sources */,
+				C9DD77085713FB5FED94EFD8 /* ToneStretchTests.swift in Sources */,
+				2B98C451FFEB21CAAA54CFDB /* YearPlateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E66679FC37B747EFAF8CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BDA998C07224FFE581065D /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C6BCCECEB1DDDD1BA326CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27B59CA01BE42DCAD706726 /* APIConfig.swift in Sources */,
+				0D853990DB02B3358E7AE3EB /* AppDelegate.swift in Sources */,
+				C81AE088EDEC51F5337D0F9A /* ContentView.swift in Sources */,
+				57B676F06654452661729C54 /* ContourUnion.swift in Sources */,
+				8DAB01E27D894F101FEBBBA0 /* CoverLaunch.swift in Sources */,
+				CCABED24B72B9808FF731840 /* IsoplethApp.swift in Sources */,
+				A70EE3AB6A74368D4EC1984A /* Loop.swift in Sources */,
+				99D12E1AC017991707E21160 /* LoopMark.swift in Sources */,
+				F5B48C1FA5F6C484BF1E46A6 /* MoodEntry.swift in Sources */,
+				C700811DC4CACEE70C5AB864 /* PlateBloom.swift in Sources */,
+				E7B2137BB5107D10863ED667 /* PlateCalendar.swift in Sources */,
+				9926573A498CC44121EF2A79 /* PlateCanvas.swift in Sources */,
+				63084D658CD583BF13CC2421 /* PlateClient.swift in Sources */,
+				39C09E6E8943DD1B0BEE335A /* PlateCommit.swift in Sources */,
+				4D9CFCCEB0975B4129E54D14 /* PlateDayBoard.swift in Sources */,
+				6E30F1CD1324A086FB44245E /* PlateDocument.swift in Sources */,
+				8B94CEFC8BA7B51F8CF95F33 /* PlateFigures.swift in Sources */,
+				1FFF6C164E75B9F690C71D66 /* PlateGrid.swift in Sources */,
+				07F7F539572C62FE173F4EEB /* PlateLattice.swift in Sources */,
+				7DF6DEC276296347E3C54504 /* PlateLive.swift in Sources */,
+				9D3B91D9419684C928C25519 /* PlateMotion.swift in Sources */,
+				ABD5B19CC8972308B2952B7B /* PlateOnboarding.swift in Sources */,
+				F279915CEB7E9541D68CEE73 /* PlateSeed.swift in Sources */,
+				146F1784C7DEF198A636955F /* PlateSettings.swift in Sources */,
+				793F3010FC6DD8F130E457E4 /* PlateStore.swift in Sources */,
+				0D97567323B127AAE9D901E8 /* PlateTokens.swift in Sources */,
+				D47A64DDDF84AA43BA2BE19C /* PlateVoid.swift in Sources */,
+				31A01AC8B4FD017F2C6FF42E /* QuietMark.swift in Sources */,
+				16F093C2917370F96A6AD9AA /* Ridge.swift in Sources */,
+				FD49CB9B8F53F559AF55E3FA /* RidgeMark.swift in Sources */,
+				2E9CAF501433ABE067049B1B /* RidgeSheet.swift in Sources */,
+				AD5DF15F1FEF91EC98CEBBF9 /* Spot.swift in Sources */,
+				5A8863345DDD55D30462C9E9 /* SpotMark.swift in Sources */,
+				ACF05FBA59BFC6279964E916 /* Tone.swift in Sources */,
+				111AE00649ED924EF2DD829A /* ToneStretch.swift in Sources */,
+				6C94D989B3C5B1FE15924185 /* ToneWellOverlay.swift in Sources */,
+				209E31648957E7948652AB9B /* YearPlate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91BB3E6E31B04BA29731E90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6E330EA7AB6F5CC144A3D2 /* OneSignalNotificationServiceExtension */;
+			targetProxy = D2401453C76D0159FDAC64F9 /* PBXContainerItemProxy */;
+		};
+		ABBC729482A1E5A6CF47A58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0EE8584F6E91059A12129A /* Isopleth */;
+			targetProxy = 8BA8E818509DE30537D83507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019AE6624C59762FDDB4D91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Isopleth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Isopleth";
+			};
+			name = Release;
+		};
+		22544D4E127BDF945BA6D5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Isopleth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Isopleth-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Isopleth;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge;
+				PRODUCT_NAME = Isopleth;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4180D2999FE09F38DF724DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		43C52305DC1864A71DB71092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45673B4F0C11B1461EBBAF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Isopleth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Isopleth-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Isopleth;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge;
+				PRODUCT_NAME = Isopleth;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46C1064827D7DA8B1BDAB3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		5B7A7326A7026CF69C34B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Isopleth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Isopleth";
+			};
+			name = Debug;
+		};
+		C911548D65AB3DCABB39EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isopleth.ridge.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00104C64B9C9A76681F789A8 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C911548D65AB3DCABB39EDD2 /* Debug */,
+				43C52305DC1864A71DB71092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0BE8AF9AEC7400C530281A56 /* Build configuration list for PBXNativeTarget "Isopleth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45673B4F0C11B1461EBBAF51 /* Debug */,
+				22544D4E127BDF945BA6D5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6F1156CF5920A1CEB7C3D97 /* Build configuration list for PBXNativeTarget "IsoplethTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7A7326A7026CF69C34B182 /* Debug */,
+				019AE6624C59762FDDB4D91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E995C977E6E8C460BF2B6119 /* Build configuration list for PBXProject "Isopleth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C1064827D7DA8B1BDAB3D6 /* Debug */,
+				4180D2999FE09F38DF724DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70758B0C574063CD2FFA3E2A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rg8tv2gc29-tech/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+		99688E6D56951749D16C7514 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043A1FC36B415CB98B31BABE /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99688E6D56951749D16C7514 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		074AA69C112F299C285A7203 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70758B0C574063CD2FFA3E2A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		23A25E6A9833EA4379FC292E /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99688E6D56951749D16C7514 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		6DF2D65AF4D974E2D895A339 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99688E6D56951749D16C7514 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6F0260D60078EB8E88C158AE /* Project object */;
+}

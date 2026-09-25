@@ -1,0 +1,17 @@
+Near cold launch the system may show the notifications permission alert (Allow / Don't Allow). There is no in-app button that steers that grant; the app continues either way. The build includes a Camera usage description that reads exactly: "This app does not use the camera." The app never presents a camera permission dialog and has no camera UI. Mic, Photos, Location, and App Tracking Transparency are not asked.
+
+There is no login or accounts, no in-app purchase, no public user-generated content feeds, no account deletion flow, and no App Tracking Transparency prompt. Local Reset all data clears marks on the plate; there is no account to delete.
+
+Isopleth is a year plate for marking each day with one of twelve named tones. It treats the year as terrain rather than a journal, for anyone who wants a quiet daily mark, a quiet-days streak, and runs of the same tone over time.
+
+No credentials or demo account are needed. On cold launch you may see a blank dark screen for a short wait (often a few seconds); wait for the plate or cover. The system notifications alert may appear; choose Allow or Don't Allow. On a first launch with an empty plate, a four-page cover appears: page 1 title The year plate with body One mark for each day. Terrain, not a journal.; page 2 title Set the tone with body Tap today. Twelve named tones. Colour is never the only signal.; page 3 title Ridges join with body Same-tone cells that share an edge become a ridge. A close is a loop. A lone cell is a spot.; page 4 title Quiet days with body Consecutive marks ending today or yesterday. A gap starts over. Every page has SKIP; pages 1–3 have Next; page 4 has Open the plate. SKIP or Open the plate opens the year plate. On the year plate home, use Mark today, tap today's cell (Today / Open), or the footer Set the tone to open Set the tone and pick one of the twelve spoken names (Still, Drift, Lift, Crest, Fold, Spur, Scarp, Bench, Sill, Notch, Rim, Peak). Use TONE RUNS for Tone runs (SAME-TONE RUNS and SINGLE DAYS). Use SETTINGS for Twelve tones, Shift ink, Restore factory tones, Replay the cover, Reset all data, and Contact. Returning launches show the year plate unless Settings → Replay the cover. On Simulator, the first empty run may already show sample past marks with the cover already finished.
+
+Marks and tone names are kept on this device and return after relaunch. The on-screen support control is Contact, which opens the support/contact page outside the app.
+
+Behaviour does not differ by region beyond locale: dates, weekday letters, and numbers follow the device locale; English is the development language.
+
+No licence or regulated-industry paperwork applies. This is a Lifestyle personal year plate with no regulated content.
+
+The app does not show health, medical, or product-health information. It is a personal log only and gives no recommendations.
+
+The app does not scan barcodes or QR codes.
