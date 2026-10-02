@@ -1,4 +1,4 @@
-<!-- gf-brief source=3c9569f0ec2504c0e8cd7af7c44975de52d195ed840e58f090465b8f4d9bba67 written=2026-09-26T02:07:32+03:00 -->
+<!-- gf-brief source=3c9569f0ec2504c0e8cd7af7c44975de52d195ed840e58f090465b8f4d9bba67 written=2026-09-27T23:56:31+03:00 -->
 # Isopleth
 
 ## What it is

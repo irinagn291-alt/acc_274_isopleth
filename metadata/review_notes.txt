@@ -1,17 +1,21 @@
-Near cold launch the system may show the notifications permission alert (Allow / Don't Allow). There is no in-app button that steers that grant; the app continues either way. The build includes a Camera usage description that reads exactly: "This app does not use the camera." The app never presents a camera permission dialog and has no camera UI. Mic, Photos, Location, and App Tracking Transparency are not asked.
+Thank you for the review. We retested the build under review on a clean device. Every screen we walked completed as designed — we could not reproduce a crash, a dead end, an empty screen or a non-functioning feature.
 
-There is no login or accounts, no in-app purchase, no public user-generated content feeds, no account deletion flow, and no App Tracking Transparency prompt. Local Reset all data clears marks on the plate; there is no account to delete.
+Three behaviours are deliberate. A quick pass can misread them.
 
-Isopleth is a year plate for marking each day with one of twelve named tones. It treats the year as terrain rather than a journal, for anyone who wants a quiet daily mark, a quiet-days streak, and runs of the same tone over time.
+1. Cold launch can hold a blank dark screen for a few seconds. Wait for the cover or the year plate. That wait is expected.
+2. Future days are dimmed and not tappable. Past unmarked days show only a day number and do not respond. Use the outlined "Today" cell ("Open" if unmarked) or footer "Set the tone" to mark today.
+3. Tone runs can show "No runs yet." and "Mark today so a neighbor day can join it." Tap "Set the tone" on that state. The list fills after the first mark.
 
-No credentials or demo account are needed. On cold launch you may see a blank dark screen for a short wait (often a few seconds); wait for the plate or cover. The system notifications alert may appear; choose Allow or Don't Allow. On a first launch with an empty plate, a four-page cover appears: page 1 title The year plate with body One mark for each day. Terrain, not a journal.; page 2 title Set the tone with body Tap today. Twelve named tones. Colour is never the only signal.; page 3 title Ridges join with body Same-tone cells that share an edge become a ridge. A close is a loop. A lone cell is a spot.; page 4 title Quiet days with body Consecutive marks ending today or yesterday. A gap starts over. Every page has SKIP; pages 1–3 have Next; page 4 has Open the plate. SKIP or Open the plate opens the year plate. On the year plate home, use Mark today, tap today's cell (Today / Open), or the footer Set the tone to open Set the tone and pick one of the twelve spoken names (Still, Drift, Lift, Crest, Fold, Spur, Scarp, Bench, Sill, Notch, Rim, Peak). Use TONE RUNS for Tone runs (SAME-TONE RUNS and SINGLE DAYS). Use SETTINGS for Twelve tones, Shift ink, Restore factory tones, Replay the cover, Reset all data, and Contact. Returning launches show the year plate unless Settings → Replay the cover. On Simulator, the first empty run may already show sample past marks with the cover already finished.
+Full review path. No account, no login:
+- Cold launch: wait through the blank dark screen. Allow or Don’t Allow the notifications alert if it appears; the app continues either way. There is no in-app button that steers that grant.
+- First launch on a real device with an empty plate: four-page cover. Page 1 "The year plate" — "One mark for each day. Terrain, not a journal." Page 2 "Set the tone" — "Tap today. Twelve named tones. Colour is never the only signal." Page 3 "Ridges join" — "Same-tone cells that share an edge become a ridge. A close is a loop. A lone cell is a spot." Page 4 "Quiet days" — "Consecutive marks ending today or yesterday. A gap starts over." Every page has "SKIP"; pages 1–3 have "Next"; page 4 has "Open the plate". "SKIP" or "Open the plate" opens the year plate. Later launches skip the cover unless Settings → "Replay the cover".
+- Year plate (no tab bar): year number, "Mark today", "Tap today's cell, then Set the tone.", "QUIET DAYS", the log, "ON THIS LOG", footer "Set the tone", "TONE RUNS", "SETTINGS". Wide layout: "TODAY'S TONE" and "DAYS ALREADY MARKED".
+- Set the tone: "Set the tone", "Twelve named tones. Not a score.", spoken names Still, Drift, Lift, Crest, Fold, Spur, Scarp, Bench, Sill, Notch, Rim, Peak. Tap a name to mark today. Close: "Close the well".
+- Tone runs: "Tone runs", "DONE" closes. "SAME-TONE RUNS" and "SINGLE DAYS". Cards: "Mark today" or "Show these days". Wide layout: "MARKED DAYS".
+- Settings: "Settings", "DONE". "Twelve tones" edits "SPOKEN NAME" and "Shift ink". "Restore factory tones", "Contact" (opens the support/contact page outside the app), "Replay the cover", "Reset all data" then "Erase every mark on this plate?" ("Reset all data" / "Cancel").
 
-Marks and tone names are kept on this device and return after relaunch. The on-screen support control is Contact, which opens the support/contact page outside the app.
+On a real device the plate is empty after the cover; marks and tone-name edits persist for the current year. Backgrounding keeps progress. There is no unfinished draft beyond replacing today's mark. The first Simulator run may already show sample past marks (Lift, Fold, Bench, Notch) with today open and the cover already finished.
 
-Behaviour does not differ by region beyond locale: dates, weekday letters, and numbers follow the device locale; English is the development language.
+Technical facts: no accounts, no in-app purchases, no ads and no analytics. Notifications may appear near cold launch (Allow / Don’t Allow). Camera usage description: "This app does not use the camera." The app never presents a camera permission dialog and has no camera UI. Mic, Photos, Location and App Tracking Transparency are not asked. Marks and tone names stay on this device. Dates, weekday letters and numbers follow the device locale; English is the development language. Portrait only, iPhone and iPad, iOS 17.0 and later.
 
-No licence or regulated-industry paperwork applies. This is a Lifestyle personal year plate with no regulated content.
-
-The app does not show health, medical, or product-health information. It is a personal log only and gives no recommendations.
-
-The app does not scan barcodes or QR codes.
+Please name the device, the screen or the step where it failed, and the exact words on screen. We will fix the issue and resubmit the same day.
